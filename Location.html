@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+  <meta charset="UTF-8">
+  <!-- BOOTSTRAP -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Location</title>
+  <link rel="stylesheet" href="Achat.css">
+
+</head>
+ 
+<body class="bg-light">
+ 
+  <div class="container bg-white p-5 mt-5">
+    <!-- Logo -->
+    <section class="tete">
+        <nav class="nav_links">
+            <img src="IMAGES/png_logo.png" alt="Logo">
+            <h1> Location </h1>
+            <ul>
+                <li><a href="Acceuil.html">Acceuil</a></li>
+                <li><a href="Achat.html">Achat</a></li>
+                <li><a href="Location.html">Location</a></li>
+                <li><a href="A propos de nous.html">Apropos de nous</a></li>
+            </ul>
+        </nav>
+    </section>
+    <!-- Button to call the praducts -->
+    <button class="btn btn-primary mt-2 mb-2" onclick='populateTableList()'>Show All</button>
+    <!-- Table  -->
+    <table class="table table-image">
+      <thead class="thead-dark">
+        <tr class="text-center">
+          <th>pic</th>
+          <th>   </th>
+          <th> Name Price</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <!-- Table body with the list of products -->
+      <tbody id="productList">
+      </tbody>
+    </table>
+    <section class="tete1">
+      <nav class="nav_links1">
+          <img src="Maison1.jpg">
+          <ul>
+              <li>Maison luxe Paris Center</li>
+              <li>390 000$</li>
+              <li>Demander</li>
+              
+          </ul>
+      </nav>
+
+    </section>
+    <section class="tete1">
+      <nav class="nav_links1">
+          <img src="Maison2.jpg">
+          <ul>
+              <li>Maison  Paris chateau de cachan</li>
+              <li>890 000$</li>
+              <li>Demander</li>
+          </ul>
+      </nav>
+    </section>
+    <section class="tete1">
+      <nav class="nav_links1">
+          <img src="Maison3.jpg">
+          <ul>
+              <li>Maison luxe London Center</li>
+              <li>280 000$</li>
+              <li>Demander</li>
+          </ul>
+      </nav>
+    </section>
+    <section class="tete1">
+      <nav class="nav_links1">
+          <img src="Maison4.jpg">
+          <ul>
+              <li>Maison d’Holland Park </li>
+              <li>290 000$</li>
+              <li>Demander</li>
+          </ul>
+      </nav>
+    </section>
+    <section class="tete1">
+      <nav class="nav_links1">
+          <img src="Maison5.jpg">
+          <ul>
+              <li> Maison victorienne</li>
+              <li>250 000$</li>
+              <li>Demander</li>
+          </ul>
+      </nav>
+    </section>
+    <section class="tete1">
+      <nav class="nav_links1">
+          <img src="Maison6.jpg">
+          <ul>
+              <li>Maison luxe Paris Center</li>
+              <li>250 000$</li>
+              <li>Demander</li>
+              
+          </ul>
+      </nav>
+    </section>
+ 
+  </div>
+  <script src="produit.js"></script>
+</body>
+ 
+</html>

@@ -1,0 +1,155 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.tete{
+    min-height: 1vh;
+    width: 100%;
+    background-color: rgb(89, 69, 201);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 100px;
+}
+nav h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+}
+
+nav ul li{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+nav ul li a{
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(89, 69, 201);
+    color: #fffdf1;
+    padding: 10px;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    font-family: 'Courier New', Courier, monospace ;
+    font-size: 150%;
+}
+
+
+nav ul li:hover a{
+    color: #F6F6F6;
+    background-color: #FF6F62;
+    transition: 0.3s all;
+}      
+.header{
+    min-height: 50px;
+    background-size: cover;
+    position: relative;
+    image-resolution: HD;  
+    text-align: center;
+ 
+}
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+nav img{
+    width: 150px;
+}
+
+.marquee{
+    border-left: 100px;
+}
+h1{
+    text-align: center;
+}
+
+nav img{
+    width: 150px;
+
+}
+
+
+
+section {
+text-align: justify;
+
+}
+
+div .container{
+    display: inline;
+    width: 40%;
+    margin-inline:2%;
+    place-content: center;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+   
+div .button{
+    justify-content: space-between ;
+} 
+.container{
+    
+    display: inline;
+    width: 40%;
+    margin-inline:2%;
+    place-content: center;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.box{
+    margin-inline:40%;
+    background-color: rgb(133, 155, 160);
+    place-content: justify;
+
+}
+
+footer{
+    display:inline-flexbox;
+    background-color: rgb(253, 252, 252);
+    justify-content: space-between;
+
+}
+.footer{
+    position:relative;
+    background: #fffffe;
+    height: 100px;
+    width:100%;
+    top: 0;
+    right: 0;
+    text-align:justify;
+    z-index: 2;
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+}
+
